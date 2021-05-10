@@ -1,7 +1,4 @@
 MYROOT=$PWD
-cd ..
-git submodule update --init --recursive 
-cd $MYROOT
 
 echo copy ../src to $PWD
 cp ../src . -r
