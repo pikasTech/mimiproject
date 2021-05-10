@@ -16,4 +16,5 @@ echo remove lib/
 rm lib -rf
 echo remove bin/
 rm bin -rf
-
+echo remove src/
+rm src -rf
