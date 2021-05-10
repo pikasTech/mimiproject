@@ -9,13 +9,18 @@ mimiproject是一个基于cmake的自动化构建和包管理工具
 
 ``` 
 libdev
-|-------mimiproject
-|-------src
-    |-------package 
-    |        |---mimilib
-    |-------init
-            |---linux
-            |    |---main.c
-            |---test
-                 |---main.cpp
+  |
+  |___mimiproject
+  |
+  |___src
+        |___package 
+        |      |
+        |      |___mimilib
+        |      
+        |___init
+              |___linux
+              |     |___main.c
+              |
+              |___test
+                    |___main.cpp
 ```
