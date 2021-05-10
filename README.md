@@ -39,7 +39,7 @@ cd mimiproject
 sh clear.sh
 ```
 
-## 更新并提交工程(会自动清楚缓存)
+## 更新并提交工程(会自动清除缓存)
 ```
 cd mimiproject
 sh update.sh
