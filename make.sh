@@ -1,5 +1,5 @@
 echo copy ../src to $PWD
-cp ../src . -r
+ln -s ../src ./src
 
 cp setup/cmake/package/domake.sh .
 sh domake.sh
