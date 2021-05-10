@@ -1,7 +1,10 @@
 MYROOT=$PWD
 
-echo copy ../src to $PWD
-cp ../src . -r
+#echo copy ../src to $PWD
+#cp ../src . -r
+
+echo link ../src to $PWD
+ln -s ../src src
 
 echo copy setup/vscode to ../.vscode
 cp setup/vscode/* ../.vscode/
@@ -13,3 +16,5 @@ rm domake.sh
 cp setup/cmake/init/domake.sh .
 sh domake.sh
 rm domake.sh
+
+rm src -rf
