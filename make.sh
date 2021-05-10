@@ -1,5 +1,8 @@
 echo copy ../src to $PWD
-ln -s ../src ./src
+cp ../src . -r
+
+echo copy setup/vscode to ../.vscode
+cp setup/vscode/* ../.vscode/
 
 cp setup/cmake/package/domake.sh .
 sh domake.sh
