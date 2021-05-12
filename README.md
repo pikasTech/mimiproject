@@ -30,8 +30,6 @@ libdev
 sh make.sh
 ```
 
-构建
-
 ## 清除缓存
 ```
 sh clear.sh
