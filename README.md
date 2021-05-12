@@ -39,3 +39,14 @@ sh clear.sh
 ```
 sh update.sh
 ```
+
+# 分支说明
+
+## master分支
+稳定的分支，默认使用clang+cmake工具链
+
+## gcc分支
+使用gcc+cmake工具链的最新分支
+
+## clang分支
+使用clang+cmake工具链的最新分支
