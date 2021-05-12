@@ -27,7 +27,6 @@ libdev
 
 ## 构建
 ```
-cd mimiproject
 sh make.sh
 ```
 
@@ -35,12 +34,10 @@ sh make.sh
 
 ## 清除缓存
 ```
-cd mimiproject
 sh clear.sh
 ```
 
-## 更新并提交工程(会自动清除缓存)
+## 更新并提交工程(开发者使用，会自动清除缓存)
 ```
-cd mimiproject
 sh update.sh
 ```
