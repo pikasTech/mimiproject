@@ -2,7 +2,7 @@
 project_path=$(cd ../..;pwd)
 project_name="${project_path##*/}"
 
-DOCKER_NAME=$project_name
+DOCKER_NAME=$project_name-clang
 
 docker rmi -f $DOCKER_NAME 
 docker rm -f $DOCKER_NAME
