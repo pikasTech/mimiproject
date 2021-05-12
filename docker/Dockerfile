@@ -14,7 +14,8 @@ RUN sudo apt-get update && sudo apt-get install -y vim wget
 RUN sudo apt-get install -y git
 RUN sudo apt install -y openssh-server
 RUN sudo apt install -y net-tools
-RUN sudo apt install -y build-essential gdb
+RUN sudo apt install -y llvm
+RUN sudo apt install -y clang
 RUN sudo apt install -y cmake
 RUN sudo apt install -y ranger
 RUN cp /etc/skel/.bashrc ~/ # enable the colors for root
