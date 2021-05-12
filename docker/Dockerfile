@@ -18,6 +18,7 @@ RUN sudo apt install -y llvm
 RUN sudo apt install -y clang
 RUN sudo apt install -y cmake
 RUN sudo apt install -y ranger
+RUN sudo apt install -y zlib1g-dev
 RUN cp /etc/skel/.bashrc ~/ # enable the colors for root
 #----------------------->END system tools
 
