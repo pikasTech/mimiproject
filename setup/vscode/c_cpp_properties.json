@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "docker",
+            "includePath": [
+                "mimiproject/include"
+            ],
+            "defines": [
+                "LINUX"
+            ],
+            "compileCommands": "${default}",
+            "intelliSenseMode": "${default}",
+            "cStandard": "${default}",
+            "cppStandard": "${default}"
+        }
+    ],
+    "version": 4
+}
