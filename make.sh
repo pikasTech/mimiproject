@@ -1,8 +1,5 @@
 MYROOT=$PWD
 
-#echo copy ../src to $PWD
-#cp ../src . -r
-
 echo link ../src to $PWD
 ln -s ../src src
 
