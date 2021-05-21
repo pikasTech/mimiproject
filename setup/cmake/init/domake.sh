@@ -39,5 +39,5 @@ echo remove $PWD/bin
 rm bin -rf
 
 # build project
-cd build/$BUILD_DIR && cmake -DCMAKE_TOOLCHAIN_FILE=./linux.toolchain.cmake ../../ && make && cd .. 
+cd build/$BUILD_DIR && cmake -DCMAKE_TOOLCHAIN_FILE=./linux.toolchain.cmake ../../ && make -j8 && cd .. 
 
