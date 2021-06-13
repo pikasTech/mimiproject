@@ -1,3 +1,17 @@
+# get project name
+project_path=$(cd ..;pwd)
+project_name="${project_path##*/}"
+
+DOCKER_NAME=$project_name
+
+docker run -it --rm \
+	--name $DOCKER_NAME \
+       	-v "$PWD":/usr/src/myapp \ 
+	-w /usr/src/myapp \
+	--network host \
+	python:3.7 \
+	python tcpDemo_server.py
+
 MYROOT=$PWD
 
 echo link ../src to $PWD
