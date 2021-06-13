@@ -28,11 +28,11 @@ libdev
 ``` shell
 cd docker && sh build.sh
 ```
-## 容器外构建
+## 容器外编译(需要先构建好容器)
 ``` shell
 sh outmake.sh
 ```
-## 容器内构建
+## 容器内编译(需要进入容器)
 ``` shell
 sh make.sh
 ```
