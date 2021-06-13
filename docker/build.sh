@@ -14,6 +14,7 @@ docker run -itd \
 	-v $PWD/../../:/root/dev/$DOCKER_NAME\
 	-v /tmp/.X11-unix:/tmp/.X11-unix \
 	-e DISPLAY \
+	-w /root/dev/$DOCKER_NAME/mimiproject \
 	--restart=always \
 	$DOCKER_NAME \
 	bash
