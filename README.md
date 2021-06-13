@@ -24,8 +24,15 @@ libdev
               |___test
                     |___main.cpp
 ```
+## 构建容器
 
-## 构建
+cd docker && sh build.sh
+
+## 容器外构建
+
+sh outmake.sh
+
+## 容器内构建
 ```
 sh make.sh
 ```
