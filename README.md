@@ -25,25 +25,25 @@ libdev
                     |___main.cpp
 ```
 ## 构建容器
-
+``` shell
 cd docker && sh build.sh
-
-## 容器外构建
-
-sh outmake.sh
-
-## 容器内构建
 ```
+## 容器外构建
+``` shell
+sh outmake.sh
+```
+## 容器内构建
+``` shell
 sh make.sh
 ```
 
 ## 清除缓存
-```
+``` shell
 sh clear.sh
 ```
 
-## 更新并提交工程(开发者使用，会自动清除缓存)
-```
+## (废弃，直接使用git操作即可，已经添加.gitignore)更新并提交工程(开发者使用，会自动清除缓存)
+``` shell
 sh update.sh
 ```
 
