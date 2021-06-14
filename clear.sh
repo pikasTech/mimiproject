@@ -14,8 +14,8 @@ echo remove includ/
 rm include -rf
 echo remove lib/
 rm lib -rf
-echo remove boot/
-rm boot -rf
+echo remove bin/
+rm bin -rf
 echo remove test/
 rm test -rf
 echo remove src/

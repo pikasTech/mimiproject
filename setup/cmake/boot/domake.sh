@@ -34,9 +34,9 @@ fi
 echo cp linux.toolchain.cmake to build/$BUILD_DIR 
 cp setup/cmake/linux.toolchain.cmake build/$BUILD_DIR/
 
-# clear the boot older
-echo remove $PWD/boot
-rm boot -rf
+# clear the bin older
+echo remove $PWD/bin
+rm bin -rf
 
 # build project
 cd build/$BUILD_DIR && cmake -DCMAKE_TOOLCHAIN_FILE=./linux.toolchain.cmake ../../ && make -j8 && cd .. 
