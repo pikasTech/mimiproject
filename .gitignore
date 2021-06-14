@@ -1,5 +1,6 @@
 build/
 lib/
-bin/
+boot/
+test/
 include/
 CMakeLists.txt
