@@ -1,4 +1,4 @@
-set(SRC_DIR src/init)
+set(SRC_DIR src/boot)
 
 # 获得当前目录名
 string(REGEX REPLACE "/$" "" CURRENT_FOLDER_ABSOLUTE ${CMAKE_CURRENT_SOURCE_DIR})
@@ -27,7 +27,7 @@ add_definitions(-D LINUX)
 set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 
 #设置执行文件输出目录
-set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
+set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/boot)
 
 # 添加子目录
 execute_process(
