@@ -18,11 +18,11 @@ libdev
         |      |___mimilib
         |      
         |___boot
-              |___linux
-              |     |___main.c
-              |
-              |___test
-                    |___main.cpp
+        |     |___linux
+        |     |     |___main.c
+        |
+        |___test
+              |___main.cpp
 ```
 ## 构建容器
 ``` shell
