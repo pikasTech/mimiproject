@@ -17,7 +17,7 @@ libdev
         |      |
         |      |___mimilib
         |      
-        |___init
+        |___boot
               |___linux
               |     |___main.c
               |
