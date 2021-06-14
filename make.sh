@@ -20,5 +20,7 @@ sh domake.sh
 rm domake.sh
 
 rm src -rf
+rm CMakeLists.txt -rf
+
 
 cd test && ./$(ls -q)
