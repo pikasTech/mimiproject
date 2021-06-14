@@ -20,3 +20,5 @@ sh domake.sh
 rm domake.sh
 
 rm src -rf
+
+cd test && ./$(ls -q)
