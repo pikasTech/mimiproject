@@ -19,7 +19,7 @@ libdev
         |      
         |___boot
         |     |___linux
-        |     |     |___main.c
+        |           |___main.c
         |
         |___test
               |___main.cpp
