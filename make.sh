@@ -2,7 +2,7 @@
 MYROOT=$PWD
 
 echo link ../src to $PWD
-ln -s ../src src
+ln -s ../src $PWD/src
 
 echo copy setup/vscode to ../.vscode
 cp setup/vscode/* ../.vscode/
