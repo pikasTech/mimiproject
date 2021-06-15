@@ -8,7 +8,7 @@
 		"prefix": "cclass",
 		"body": [
 			"#include \"$1.h\"",
-			"#include \"VM_memory.h\"",
+			"#include \"dataMemory.h\"",
 			"",
 			"static void deinit($1_t *self)",
 			"{",
@@ -45,7 +45,7 @@
 		"body": [
 			"#ifndef _$1__H",
 			"#define _$1__H",
-			"#include \"VM_memory.h\"",
+			"#include \"dataMemory.h\"",
 			"typedef struct Class_$1 $1_t;",
 			"struct Class_$1",
 			"{",
@@ -71,7 +71,7 @@
 		"prefix": "cderive",
 		"body": [
 			"#include \"$1.h\"",
-			"#include \"VM_memory.h\"",
+			"#include \"dataMemory.h\"",
 			"",
 			"static void init_$2($1_t *self, int argc, char **argv)",
 			"{",
@@ -99,7 +99,7 @@
 		"body": [
 			"#ifndef _$1_$2__H",
 			"#define _$1_$2__H",
-			"#include \"VM_memory.h\"",
+			"#include \"dataMemory.h\"",
 			"#include \"$1.h\"",
 			"",
 			"$1_t *New_$1_$2(int argc, char **argv);",
