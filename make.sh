@@ -21,6 +21,9 @@ rm domake.sh
 rm src -rf
 rm CMakeLists.txt -rf
 
+echo remove includ/
+rm include -rf
+
 cd test
 for testbin in $(ls)
 do
