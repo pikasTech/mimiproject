@@ -1,3 +1,3 @@
 echo copy setup/vscode to ../.vscode
-cp setup/vscode/* ../.vscode/
+cp setup/vscode/c.json.code-snippets ../.vscode/
 cd docker && sh build.sh && cd ..
