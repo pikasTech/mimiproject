@@ -1,4 +1,3 @@
-
 MYROOT=$PWD
 
 echo link ../src to $PWD
@@ -22,5 +21,9 @@ rm domake.sh
 rm src -rf
 rm CMakeLists.txt -rf
 
-
-cd test && ./$(ls -q)
+cd test
+for testbin in $(ls)
+do
+	./$testbin
+done
+cd $MYROOT
