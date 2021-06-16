@@ -1,7 +1,5 @@
 MYROOT=$PWD
 
-echo link ../src to $PWD
-ln -s ../src $PWD/src
 
 
 cp setup/cmake/package/domake.sh .
@@ -16,7 +14,6 @@ cp setup/cmake/test/domake.sh .
 sh domake.sh
 rm domake.sh
 
-rm src -rf
 rm CMakeLists.txt -rf
 
 echo remove includ/
