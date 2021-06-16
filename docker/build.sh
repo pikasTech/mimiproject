@@ -11,10 +11,10 @@ docker build -t $DOCKER_NAME .
 
 docker run -itd \
 	--name $DOCKER_NAME \
-	-v $PWD/../../:/root/dev/$DOCKER_NAME\
+	-v $PWD/../../:$PWD/../../ \
 	-v /tmp/.X11-unix:/tmp/.X11-unix \
 	-e DISPLAY \
-	-w /root/dev/$DOCKER_NAME/mimiproject \
+	-w $PWD/../ \
 	--restart=always \
 	$DOCKER_NAME \
 	bash
