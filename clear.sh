@@ -10,8 +10,8 @@ rm CMakeLists.txt -rf
 # clear the include and lib folder
 echo remove build/
 rm build -rf
-echo remove includ/
-rm include -rf
+# echo remove includ/
+# rm include -rf
 echo remove lib/
 rm lib -rf
 echo remove bin/
