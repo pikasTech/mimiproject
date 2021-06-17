@@ -18,5 +18,3 @@ echo remove bin/
 rm bin -rf
 echo remove test/
 rm test -rf
-echo remove src/
-rm src -rf

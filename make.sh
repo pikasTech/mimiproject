@@ -1,7 +1,5 @@
 MYROOT=$PWD
 
-
-
 cp setup/cmake/package/domake.sh .
 sh domake.sh
 rm domake.sh

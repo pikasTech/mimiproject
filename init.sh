@@ -1,4 +1,6 @@
 sh clear.sh
+echo remove src
+rm src
 echo link ../src to $PWD
 ln -s ../src $PWD/src
 
