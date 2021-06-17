@@ -1,3 +1,4 @@
+sh clear.sh
 echo link ../src to $PWD
 ln -s ../src $PWD/src
 
