@@ -4,6 +4,8 @@ SRC_FOLDER=src
 # clear CMakeLists.txt from sub sorce folder
 # find src -name "*CMakeLists.txt" | xargs rm
 
+clear
+
 echo remove CMAKELists.txt
 rm CMakeLists.txt -rf
 
