@@ -9,6 +9,7 @@
 		"body": [
 			"#include \"$1.h\"",
 			"#include \"dataMemory.h\"",
+			"#include \"dataArgs.h\"",
 			"",
 			"static void deinit($1_t *self)",
 			"{",
@@ -46,6 +47,7 @@
 			"#ifndef _$1__H",
 			"#define _$1__H",
 			"#include \"dataMemory.h\"",
+			"#include \"dataArgs.h\"",
 			"typedef struct Class_$1 $1_t;",
 			"struct Class_$1",
 			"{",
@@ -72,6 +74,7 @@
 		"body": [
 			"#include \"$1.h\"",
 			"#include \"dataMemory.h\"",
+			"#include \"dataArgs.h\"",
 			"",
 			"static void init_$2($1_t *self, args_t *args)",
 			"{",
@@ -100,6 +103,7 @@
 			"#ifndef _$1_$2__H",
 			"#define _$1_$2__H",
 			"#include \"dataMemory.h\"",
+			"#include \"dataArgs.h\"",
 			"#include \"$1.h\"",
 			"",
 			"$1_t *New_$1_$2(args_t *args);",
