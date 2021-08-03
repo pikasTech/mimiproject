@@ -11,7 +11,7 @@ test中的可执行文件将会在make后自动执行
 如：
 
 ``` 
-libdev
+mimiscript
   |
   |___mimiproject
   |
@@ -21,23 +21,31 @@ libdev
         |      |___mimilib
         |      
         |___boot
-        |     |___linux
+        |     |___demo01-led
+        |     |     |___main.c
+        |     |
+        |     |
+        |     |___demo02-uart
         |           |___main.c
-        |
         |___test
-              |___main.cpp
+              |___mainTest
+	            |___main.cpp
 ```
-## 构建容器
+## step1: 安装编译链
+```
+sudo apt install -y clang llvm cmake zlib1g-dev
+```
+## step2: 初始化
 ``` shell
-cd docker && sh build.sh
+sh init.sh
 ```
-## 容器外编译(需要先构建好容器)
-``` shell
-sh outmake.sh
-```
-## 容器内编译(需要进入容器)
+## step3: 编译
 ``` shell
 sh make.sh
+```
+## step4: 运行
+``` shell
+bin/xxx.bin
 ```
 
 ## 清除缓存
@@ -45,13 +53,3 @@ sh make.sh
 sh clear.sh
 ```
 
-# 分支说明
-
-## master分支
-稳定的分支，默认使用clang+cmake工具链
-
-## gcc分支
-使用gcc+cmake工具链的最新分支
-
-## clang分支
-使用clang+cmake工具链的最新分支
