@@ -3,9 +3,10 @@ mimiproject是一个基于cmake的自动化构建和包管理工具
 
 使用方法: 将mimiproject作为子系统添加到新仓库，然后在mimiproject的同级目录新建src/package和src/boot,src/test.
 
-在src/prckage中添加源码库, 如mimilib, 在src/boot和src/test中新建文件夹并添加main.c或者main.cpp
+在src/prckage中添加源码库, 在src/boot和src/test中新建文件夹并添加main.c或者main.cpp
 
 test中的可执行文件将会在make后自动执行
+
 
 如：
 
