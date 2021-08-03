@@ -44,11 +44,6 @@ sh make.sh
 sh clear.sh
 ```
 
-## (废弃，直接使用git操作即可，已经添加.gitignore)更新并提交工程(开发者使用，会自动清除缓存)
-``` shell
-sh update.sh
-```
-
 # 分支说明
 
 ## master分支
